@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'supermarketRegular';
+    src: url('fonts/FF-supermarket/supermarket.eot');
+    src: local("supermarketRegular"),
+    		 url('fonts/FF-supermarket/supermarket.eot?#iefix') format('embedded-opentype'),
+         url('fonts/FF-supermarket/supermarket.woff') format('woff'),
+         url('fonts/FF-supermarket/supermarket.ttf') format('truetype'),
+         url('fonts/FF-supermarket/supermarket.svg#supermarketRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}

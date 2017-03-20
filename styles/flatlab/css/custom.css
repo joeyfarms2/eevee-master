@@ -1,0 +1,332 @@
+.panel-heading.fieldset{
+	background-color: #A1A1A1;
+	color: #FFFFFF;
+}
+.radio-inline, .checkbox-inline {
+	margin-right: 10px !important;
+	margin-left: 0px !important;
+}
+
+.adv-table table.display thead th {
+	padding: 10px 25px 10px 10px;
+}
+.top-nav .user-info img {
+	width:29px;
+}
+
+.btn {
+	margin-bottom: 0px;
+}
+.datepicker{
+  z-index: 1999!important;
+}
+.status{
+	font-size: 14px !important;
+	font-weight: bold !important;
+}
+.status-0{
+	color:#428bca;
+}
+.status-1{
+	color:#428bca;
+}
+.status-2{
+	color:#428bca;
+}
+.status-3{
+	color:#6dbb4a;
+}
+.status-4{
+	color:#ec6459;
+}
+
+select.error{
+	border-color: #B94A48 !important;
+}
+
+.nav-tabs > li {
+	margin-bottom: 1px;
+}
+.nav-tabs > li > a {
+    margin-right: 0;
+}
+
+.panel-heading.no-radius .nav > li.active:first-child > a, .panel-heading .nav > li:first-child > a:hover {
+    border-radius: 0px;
+}
+
+.help-block {
+	color: #ABABAB;
+	margin-top: 2px;
+}
+.form-control {
+	color:#888888;
+}
+
+.hcenter { text-align: center !important; }
+.hleft { text-align: left !important; }
+.hright { text-align: right !important; }
+
+.ptn,
+.pvn,
+.pan {
+  padding-top: 0 !important;
+}
+.ptx,
+.pvx,
+.pax {
+  padding-top: 3px !important;
+}
+.pts,
+.pvs,
+.pas {
+  padding-top: 5px !important;
+}
+.ptm,
+.pvm,
+.pam {
+  padding-top: 10px !important;
+}
+.ptl,
+.pvl,
+.pal {
+  padding-top: 20px !important;
+}
+.prn,
+.phn,
+.pan {
+  padding-right: 0 !important;
+}
+.prx,
+.phx,
+.pax {
+  padding-right: 3px !important;
+}
+.prs,
+.phs,
+.pas {
+  padding-right: 5px !important;
+}
+.prm,
+.phm,
+.pam {
+  padding-right: 10px !important;
+}
+.prl,
+.phl,
+.pal {
+  padding-right: 20px !important;
+}
+.pbn,
+.pvn,
+.pan {
+  padding-bottom: 0 !important;
+}
+.pbx,
+.pvx,
+.pax {
+  padding-bottom: 3px !important;
+}
+.pbs,
+.pvs,
+.pas {
+  padding-bottom: 5px !important;
+}
+.pbm,
+.pvm,
+.pam {
+  padding-bottom: 10px !important;
+}
+.pbl,
+.pvl,
+.pal {
+  padding-bottom: 20px !important;
+}
+.pln,
+.phn,
+.pan {
+  padding-left: 0 !important;
+}
+.plx,
+.phx,
+.pax {
+  padding-left: 3px !important;
+}
+.pls,
+.phs,
+.pas {
+  padding-left: 5px !important;
+}
+.plm,
+.phm,
+.pam {
+  padding-left: 10px !important;
+}
+.pll,
+.phl,
+.pal {
+  padding-left: 20px !important;
+}
+.mtn,
+.mvn,
+.man {
+  margin-top: 0px !important;
+}
+.mtx,
+.mvx,
+.max {
+  margin-top: 3px !important;
+}
+.mts,
+.mvs,
+.mas {
+  margin-top: 5px !important;
+}
+.mtm,
+.mvm,
+.mam {
+  margin-top: 10px !important;
+}
+.mtl,
+.mvl,
+.mal {
+  margin-top: 20px !important;
+}
+.mrn,
+.mhn,
+.man {
+  margin-right: 0px !important;
+}
+.mrx,
+.mhx,
+.max {
+  margin-right: 3px !important;
+}
+.mrs,
+.mhs,
+.mas {
+  margin-right: 5px !important;
+}
+.mrm,
+.mhm,
+.mam {
+  margin-right: 10px !important;
+}
+.mrl,
+.mhl,
+.mal {
+  margin-right: 20px !important;
+}
+.mbn,
+.mvn,
+.man {
+  margin-bottom: 0px !important;
+}
+.mbx,
+.mvx,
+.max {
+  margin-bottom: 3px !important;
+}
+.mbs,
+.mvs,
+.mas {
+  margin-bottom: 5px !important;
+}
+.mbm,
+.mvm,
+.mam {
+  margin-bottom: 10px !important;
+}
+.mbl,
+.mvl,
+.mal {
+  margin-bottom: 20px !important;
+}
+.mln,
+.mhn,
+.man {
+  margin-left: 0px !important;
+}
+.mlx,
+.mhx,
+.max {
+  margin-left: 3px !important;
+}
+.mls,
+.mhs,
+.mas {
+  margin-left: 5px !important;
+}
+.mlm,
+.mhm,
+.mam {
+  margin-left: 10px !important;
+}
+.mll,
+.mhl,
+.mal {
+  margin-left: 20px !important;
+}
+.lsn {
+  list-style: none !important;
+}
+.separator {
+  height: 30px;
+}
+.inline-block {
+  display: inline-block !important;
+}
+.display-block {
+  display: block !important;
+}
+.strong {
+  font-weight: bold !important;
+}
+
+label.checkbox,
+label.checkbox-inline,
+label.radio,
+label.radio-inline {
+  font-weight: normal;
+  cursor: pointer;
+}
+
+.item-row {
+  padding: 20px !important;
+  margin: 10px 0 !important;
+  background-color: #FFF !important;
+  border-bottom: 3px dotted #eff2f7 !important;
+}
+.item-row.hover:hover {
+  background-color: #eff2f7 !important;
+  border-bottom: 3px solid #eff2f7 !important;
+}
+.item-row .form-group {
+  border: none !important;
+  margin: 0 !important;
+}
+.item-row-choice {
+  padding: 5px 0 !important;
+}
+
+ul.top-menu li a i {
+    font-size: 29px;
+    padding-right: 6px;
+    vertical-align: middle;
+}
+
+.overdue{
+  background-color: #FF6C60!important;
+  color: #FFFFFF!important;
+}
+
+.fa-big{
+  font-size: 16px!important;
+}
+
+.size-xs{
+  font-size: 12px;
+  font-weight: normal;
+  padding: 1px 5px;
+  line-height: 1.5;
+}

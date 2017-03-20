@@ -1,0 +1,157 @@
+@media (min-width:768px) and (max-width:1024px){
+
+}
+
+@media (min-width:480px) and (max-width:767px){
+  body{
+    width: 100%;
+  }
+
+  .col-md-5{
+    width: 45%;
+    float: left;
+  }
+  .col-md-7{
+      width: 50%;
+      margin-right: 20px;
+      float: left;
+  }
+
+  /*.slider-header-top{
+    
+    height: 450px;
+  }*/
+
+  .layer-slider{
+    width: 100% !important;
+  }
+  .ls-layer img{
+    width: 100% !important;
+    height: 266px !important;
+    top: 0 !important;
+    left: 0 !important;
+    margin: 0 !important;
+  }
+  .ls-nexttiles img{
+    width: 100% !important;
+    height: 266px !important;
+    top: 0 !important;
+    left: 0 !important;
+    margin: 0 !important;
+  }
+  .search-txt-box{
+    clear: both;
+    margin: 10px 0px auto 0px !important;
+    width: 260px !important;
+
+  }
+  .opt-search{
+    
+  }
+  .search-btn{
+
+  }
+  .text-slider-header-top{
+    top: 164px !important;
+    
+  }
+
+  .textStart{
+    font-size:18px !important;
+  }
+  .textSub{
+    font-size:18px !important;
+  }
+  .bar-header{
+    height: 60px;
+    background: #e56201; /* For browsers that do not support gradients */    
+    background: -webkit-linear-gradient(left, #e56201 , #ffffff); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #e56201 , #ffffff); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #e56201 , #ffffff); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #e56201 , #ffffff); /* Standard syntax (must be last) */
+  }
+  .col-sm-3{
+    clear: both;
+    width: 100%;
+  }
+  .footer-member{
+    clear:inherit;
+    float: left;
+    width: 40%;
+  
+  }
+  .mb20 a img{
+    width: 100% !important;
+  }
+  .custom-news-home-box{
+    width: 80%;
+    height: auto;
+    /*margin:20px auto 0px auto;*/
+    /*background-color: #f6f6f6;*/
+    /*position:relative;*/
+    /*z-index:3;*/
+  }
+  .custom-news-home-box-small{
+    width: 80%;
+    height: 180px;
+    margin:20px 0px;
+    /*background-color: #c0c0c0;*/
+    /*position:relative;
+    margin-bottom: 30px;*/
+
+  }
+  /*.title-manu-home img{
+    width: 500px;
+  }*/
+  .col-ms-9{
+    width: 500px !important;
+    float: left;
+  }
+
+  .col-ms-2{
+    width: 100px !important;
+    float: left;
+  }
+
+  .title-manu-home img{
+    width: 500px;
+  }
+
+
+}
+
+@media (min-width:360px) and (max-width:479px){
+
+}
+
+@media (min-width:320px) and (max-width:359px){
+
+
+} 
+
+/* #### iPhone Portrait or Landscape #### */
+@media screen and (max-device-width: 320px) and (-webkit-min-device-pixel-ratio: 1.5){
+  /* some CSS here */
+
+
+
+}
+/* #### Mobile Phones Portrait #### */
+@media screen and (max-device-width: 320px) and (orientation: portrait){
+  /* some CSS here */
+
+}
+ 
+/* #### Mobile Phones Landscape #### */
+@media screen and (max-device-width: 640px) and (orientation: landscape){
+  /* some CSS here */
+
+
+}
+ 
+/* #### Tablets Portrait or Landscape #### */
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px){
+  /* some CSS here */
+
+
+}

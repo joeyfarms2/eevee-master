@@ -1,0 +1,233 @@
+@charset "utf-8";
+ /*CSS Document */
+body{
+	/*background: #F3F3F3  url(../images/pattern.png) repeat;*/
+	background-color:#999999;
+	padding:0;
+	margin:0;
+}
+
+	.bigBox{
+		width:1350px;
+		height:620px;
+		/*background:#F63;*/
+		margin:auto auto;
+		position:fixed;
+		
+	}
+	.boxBook{
+		/*width:50%;
+		height:70%;*/
+		/*background:#ECA8EE;*/
+		/*text-align:center;
+		overflow:hidden;*/
+		margin:auto auto;
+		padding:45px;
+
+			
+	}
+	#book{
+		width:100%;
+		height:100%;
+		/*background-color:#FF6;*/
+	}
+.boxPage{
+	
+}
+.boxName{
+	width:90%;
+	height:auto;
+	/*background:#C3C;*/
+	margin:auto auto;
+	padding:10px;
+	font-size:35px;
+	text-align:center;
+	color:#7A7A7A;
+	font-weight:bold;
+}
+.boxMenu{
+	width:100%;
+	height:6%;
+	/*background:#FCC;*/
+	margin:auto auto auto auto;
+	text-align:center;
+	color:#7A7A7A;
+}
+#book .turn-page{
+	background-color:#FFFFFF;
+	width:100%;
+	height:100%;
+	float:left;
+    /*-moz-box-shadow:inset 0 0 0 5px #CCCCCC;
+    -webkit-box-shadow:inset 0 0 0 5px #CCCCCC;
+    -o-box-shadow:inset 0 0 0 5px #CCCCCC;
+    -ms-box-shadow:inset 0 0 0 5px #CCCCCC;
+    box-shadow:inset 0 0 0 5px #CCCCCC;*/
+}
+
+#book .cover{
+	/*background-color:#CCCCCC;*/
+	width:100%;
+	height:100%;
+	float:left;
+}
+
+#book .cover img{	
+	color:#63C;
+	text-align:center;
+	/*font-size:50px;*/
+	width:100%;
+	height:100%;
+	float:left;
+	background-color:#CFF;
+}
+
+#book .loader{
+	background-image:url(../images/loading.gif);
+	width:24px;
+	height:24px;
+	display:block;
+	position:absolute;
+	top:30%;
+	left:20%;
+}
+
+#book .data{
+	text-align:center;
+	font-size:40px;
+	color:#999;
+	width:100%;
+	height:100%;
+	/*margin:15px;*/
+	float:left;
+	
+		
+}
+
+#controls{
+	
+	text-align:center;
+	margin:0px 0px;
+	font:20px arial;
+	width:100%;
+	height:10%;
+	float:left;
+	/*background-color:#936;*/
+}
+
+#controls input, #controls label{
+	font:20px arial;
+}
+
+#book  .odd{
+	
+	background:-webkit-gradient(linear, left top, right top, color-stop(0.95, rgba(0,0,0,0)), color-stop(1, rgba(0,0,0,0.2)));
+	background-image:-webkit-linear-gradient(left, rgba(0,0,0,0) 95%, rgba(0,0,0,0.2) 100%);
+	background-image:-moz-linear-gradient(left, rgba(0,0,0,0) 95%, rgba(0,0,0,0.2) 100%);
+	background-image:-ms-linear-gradient(left, rgba(0,0,0,0) 95%, rgba(0,0,0,0.2) 100%);
+	background-image:-o-linear-gradient(left, rgba(0,0,0,0) 95%, rgba(0,0,0,0.2) 100%);
+	background-image:linear-gradient(left, rgba(0,0,0,0) 95%, rgba(0,0,0,0.2) 100%);
+	
+	/*background-image:-webkit-linear-gradient(left, #CCC 95%, #ddd 100%);
+	background-image:-moz-linear-gradient(left, #CCC 95%, #ddd 100%);
+	background-image:-o-linear-gradient(left, #CCC 95%, #ddd 100%);
+	background-image:-ms-linear-gradient(left, #CCC 95%, #ddd 100%);*/
+}
+
+#book .even{
+	
+	background:-webkit-gradient(linear, right top, left top, color-stop(0.95, rgba(0,0,0,0)), color-stop(1, rgba(0,0,0,0.15)));
+	background-image:-webkit-linear-gradient(right, rgba(0,0,0,0) 95%, rgba(0,0,0,0.15) 100%);
+	background-image:-moz-linear-gradient(right, rgba(0,0,0,0) 95%, rgba(0,0,0,0.15) 100%);
+	background-image:-ms-linear-gradient(right, rgba(0,0,0,0) 95%, rgba(0,0,0,0.15) 100%);
+	background-image:-o-linear-gradient(right, rgba(0,0,0,0) 95%, rgba(0,0,0,0.15) 100%);
+	background-image:linear-gradient(right, rgba(0,0,0,0) 95%, rgba(0,0,0,0.15) 100%);
+	/*background-image:-webkit-linear-gradient(right, #CCC 95%, #ddd 100%);
+	background-image:-moz-linear-gradient(right, #CCC 95%, #ddd 100%);
+	background-image:-o-linear-gradient(right, #CCC 95%, #ddd 100%);
+	background-image:-ms-linear-gradient(right, #CCC 95%, #ddd 100%);*/
+}
+.boxGoto{
+	width:50%;
+	height:5%;
+	/*background:#F2D7ED;*/
+	margin:auto auto;
+    padding: 2px;
+}
+
+.share-facebook{
+
+    background-position: -4px -2px ;
+}
+.share-twitter{
+
+    background-position: -40px -2px ;
+}
+.share-google{
+
+    background-position: -112px -2px ;
+}
+.share-email{
+
+    background-position: -40px -42px ;
+}
+
+.zoom-in{
+
+    background-position: -146px -34px ;
+}
+
+.zoom-out{
+
+    background-position: -147px 2px ;
+}
+
+.print{
+
+    background-position: -76px -2px ;
+}
+
+.pdf{
+
+    background-position: -185px -2px ;
+}
+.back{
+
+    background-position: -185px -82px ;
+}
+.next{
+
+    background-position: -185px -43px  ;
+}
+.index{
+
+    background-position:-2px -82px ;
+}
+.icon{
+	width:37px;
+	height:37px;
+	background-image:url(../images/new-sprites3.png);
+	display:inline-block;
+	margin-left:30px;
+	
+}
+
+#stepzoom
+{
+	position:fixed;
+	width:auto;
+	height:29px;
+	top:0px;
+	left:auto;
+	right:auto;
+	margin:auto auto;
+	z-index:99999999;
+	/*background-color:#3C9;*/
+}
+
+#stepzoom button
+{
+	padding:0;
+	margin:auto auto;
+	
+}

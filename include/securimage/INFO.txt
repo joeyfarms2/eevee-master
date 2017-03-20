@@ -1,0 +1,3 @@
+Securimage 2.0.1 BETA
+
+http://www.phpcaptcha.org/

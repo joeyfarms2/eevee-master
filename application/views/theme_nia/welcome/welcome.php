@@ -1,0 +1,1 @@
+Welcome <a href="<?=site_url('home')?>">Enter site</a>

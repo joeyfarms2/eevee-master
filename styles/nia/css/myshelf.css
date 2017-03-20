@@ -1,0 +1,105 @@
+/* Content Box : Home */
+#my-bookshelf{
+	/*background:url('../images/background/bg-shelf-myshelf.jpg') repeat;*/
+}
+.mask {
+    background: none!important;
+}
+
+.custom-content-shelf-box{
+	padding-left: 0px;
+}
+
+/* Display as list */
+.custom-content-shelf-box .list-item{
+	width: 100%;
+	padding-bottom:20px;
+	margin-bottom:20px;
+	border-bottom: 1px solid #bebebe;
+}
+.custom-content-shelf-box .list-item .item{
+	float:left;
+	padding-right:15px;
+}
+.custom-content-shelf-box .list-item .i-title{
+}
+.custom-content-shelf-box .list-item .i-title:before{
+	/*content: "■ ";*/
+	color: #ed1d24;
+}
+.custom-content-shelf-box .list-item .i-detail,
+.custom-content-shelf-box .list-item .i-detail a
+{
+	color: #000000;
+	font-family: 'thaisans_neueregular',sans-serif;
+	font-size: 18px;
+	padding-bottom: 6px;
+}
+
+.custom-content-shelf-box .list-item .i-detail a:hover
+{
+	text-decoration: none;
+	font-weight: bold;
+}
+.custom-content-shelf-box .list-item .i-detail .i-header
+{
+	color:#ed1d24;
+}
+.custom-content-shelf-box .list-item .i-detail .i-desc
+{
+	color:#858686;
+	font-size: 14px;
+}
+
+/* Display as shelf */
+.custom-content-shelf-box .shelf-box{
+	border:none;
+	margin:0;
+}
+.custom-content-shelf-box .shelf-item{
+	background:url('../images/background/bg-shelf-item-myshelf.png') bottom no-repeat;
+	/*width: 1100px;*/
+}
+.custom-content-shelf-box .shelf-item .item.first{
+	margin-left: 90px;
+}
+.custom-content-shelf-box .shelf-item .item{
+	width: 240px;
+	height: 356px;
+	float: left;
+}
+.custom-content-shelf-box .shelf-item ul li{
+	list-style: none;
+}
+.custom-content-shelf-box .shelf-item ul li i:before{
+	/*content: "■ ";*/
+	color: #ed1d24;
+}
+.custom-content-shelf-box .shelf-item img{
+	margin:0 auto;
+}
+.custom-content-shelf-box .shelf-item .owl-controls {
+	margin-top:0px;
+}
+.custom-content-shelf-box .shelf-item .boxContent {
+	padding:10px 22px;
+}
+.custom-content-shelf-box .shelf-item .imgTitle{
+	background:none;
+	height: 47px;
+	font-family: thaisans_neueregular;
+	font-size:16px;
+	vertical-align: middle;
+	text-align: center;
+	margin-bottom: 0px;
+	padding-top:0px;
+}
+.custom-content-shelf-box .shelf-item .mask-ipad{
+   background:url('../images/background/mask-ipad.png') center no-repeat;
+   height: 140px;
+	position: absolute;
+	top: 35%;
+	width: 200px;
+}
+
+/* End : Content Box */

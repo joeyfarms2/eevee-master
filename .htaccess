@@ -1,0 +1,18 @@
+RewriteEngine on
+RewriteCond %{SCRIPT_FILENAME} !-f
+RewriteCond %{SCRIPT_FILENAME} !-d
+RewriteRule ^(.*)$ index.php/$1  
+RewriteRule ^index\.php$ home
+
+# enable expirations
+#ExpiresActive On
+# expire images after a month in the client's cache
+#ExpiresByType image/gif A2592000
+#ExpiresByType image/jpg A2592000
+#ExpiresByType image/png A18000
+#ExpiresByType text/plain A2592000
+#ExpiresByType application/pdf A86400
+
+# Good for one week
+#ExpiresByType application/x-javascript A18000
+#ExpiresByType text/css A18000
